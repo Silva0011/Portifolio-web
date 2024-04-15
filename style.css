@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+h1, h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: #1b1a1a;
+}
+h2 {
+    margin-top: 20px;
+}
+.profile-image {
+    border-radius: 50%; 
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header-text {
+    color: #fff; 
+}
+#contato {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.contact-info, .social-media {
+    margin-bottom: 30px;
+}
+
+.contact-info p, .social-media a {
+    margin-bottom: 10px;
+}
+
+.contact-info h2, .social-media h2 {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-media a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .contact-info, .social-media {
+        text-align: center;
+    }
+}
